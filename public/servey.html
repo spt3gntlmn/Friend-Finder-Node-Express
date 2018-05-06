@@ -284,6 +284,7 @@
         $.post("/api/friends", userData, function (data) {
 
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          console.log(data.name);
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
 
