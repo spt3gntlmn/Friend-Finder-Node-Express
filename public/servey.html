@@ -184,7 +184,7 @@
     <footer class="footer">
       <div class="container">
         <p>
-          <a href="/api/friends">API Friends List</a> |
+          <a href="../data/friends.js">API Friends List</a> |
           <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
         </p>
       </div>
@@ -263,12 +263,12 @@
       // If all required fields are filled
       if (validateForm()) {
         // Create an object for the user"s data
-        var userData = {
+        let userData = {
           name: $("#name").val(),
           photo: $("#photo").val(),
           scores: [
-            $("#q1").val(),
-            $("#q2").val(),
+            parseInt($("#q1").val()),     //  parse int for these
+            parseInt($("#q2").val()),
             $("#q3").val(),
             $("#q4").val(),
             $("#q5").val(),
