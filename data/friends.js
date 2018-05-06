@@ -54,6 +54,11 @@ let friends = [{
   'name': 'Harry',
   'photo': 'https://pbs.twimg.com/profile_images/712691559414652928/Hxya7djO.jpg',
   'scores': ['3', '2', '4', '4', '5', '5', '4', '3', '2', '1']
+},
+{
+  'name': 'Sharona',
+  'photo': 'https://i.ytimg.com/vi/2pO1O6wkfnw/hqdefault.jpg',
+  'scores': ['2', '3', '1', '2', '1', '3', '2', '1', '4', '4']
 }
 ]
 
