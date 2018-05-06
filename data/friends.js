@@ -59,6 +59,11 @@ let friends = [{
   'name': 'Sharona',
   'photo': 'https://i.ytimg.com/vi/2pO1O6wkfnw/hqdefault.jpg',
   'scores': ['2', '3', '1', '2', '1', '3', '2', '1', '4', '4']
+},
+{
+  'name': 'Jack',
+  'photo': 'https://i.pinimg.com/736x/e6/f5/3d/e6f53d798e73ca4c6576898b1fb7da55--funny-caricatures-celebrity-caricatures.jpg',
+  'scores': ["3", "4", "4", "1", "3", "4", "3", "1", "5", "4"]
 }
 ]
 
